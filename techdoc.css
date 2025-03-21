@@ -1,0 +1,54 @@
+#navbar ul{
+    color:black;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+#navbar {
+    background-color: rgb(191, 187, 187);
+    float: left;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-width: 290px;
+    border-right: solid 2px;
+}
+.nav-link {
+    color:black;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 60px 40px;
+    font-size: 1.25em;
+    font-weight: 500;
+    border-bottom: solid 2px;
+    
+}
+#navbar li:first-child {
+    border-top: solid 2px;
+}
+header {
+    font-size: 2em;
+}
+@media not (hover: none) {
+    #navbar a:hover {
+        background: rgb(119, 117, 117);
+    }
+}
+#navbar header {
+    text-align: center;
+    margin: 15px;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 302px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+code {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    border: 2px solid #4d4b4b;
+    border-radius: 10px;
+}
