@@ -53,3 +53,9 @@ h1 {
     cursor: pointer;
     margin-top: 15px;
 }
+#result {
+    font-size: 2em;
+    margin-top: 15px;
+    color: #000000;
+    font-weight: bold;
+}
